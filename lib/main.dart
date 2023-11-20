@@ -31,9 +31,8 @@ class OBJ3DModelScreen extends StatefulWidget {
 class _OBJ3DModelScreenState extends State<OBJ3DModelScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Model Viewer')),
-      body: const ModelViewer(
+    return const Scaffold(
+      body: ModelViewer(
         backgroundColor: Color.fromARGB(255, 38, 38, 38),
         src: 'assets/3D_ROOM.glb',
         alt: 'Room',
